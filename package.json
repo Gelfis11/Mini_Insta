@@ -1,0 +1,42 @@
+{
+  "name": "instapets-restapi",
+  "version": "1.0.0",
+  "description": "- Aplicación que permite publicar tus fotos (añadiendo o no textos) y que otras personas puedan verlas.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "initDB": "node db/initDB.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sansnosabe/instapets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sansnosabe/instapets/issues"
+  },
+  "homepage": "https://github.com/sansnosabe/instapets#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.1.2",
+    "nodemailer": "^6.9.1",
+    "path": "^0.12.7",
+    "sharp": "^0.31.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.4",
+    "standart": "^6.1.0"
+  }
+}
